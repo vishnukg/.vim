@@ -6,7 +6,8 @@ runtime settings/airline.vim
 runtime settings/govim.vim
 
 syntax on
-colo dracula
+colo dracula 
+
 filetype plugin indent on
 "au filetype go inoremap <buffer> . .<C-x><C-o>
 
