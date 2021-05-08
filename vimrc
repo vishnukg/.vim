@@ -4,7 +4,6 @@ runtime settings/keymap.vim
 runtime settings/options.vim
 runtime settings/airline.vim
 runtime settings/govim.vim
-runtime settings/fzf.vim
 
 syntax on
 colo iceberg 
