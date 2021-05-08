@@ -1,12 +1,12 @@
 syntax on
 colo iceberg
 
+runtime settings/vimplug.vim
 runtime settings/nerdtree.vim
 runtime settings/keymap.vim
 runtime settings/options.vim
 runtime settings/airline.vim
-
-runtime ftplugin/govim.vim
+runtime settings/govim.vim
 
 
 filetype plugin indent on
