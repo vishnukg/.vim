@@ -7,7 +7,7 @@ runtime settings/govim.vim
 runtime settings/fzf.vim
 
 syntax on
-colo iceberg 
+colo gruvbox 
 
 filetype plugin indent on
 "au filetype go inoremap <buffer> . .<C-x><C-o>
