@@ -1,10 +1,10 @@
-nnoremap <C-p> :GFiles<Cr>
+nnoremap <C-p> :Files<Cr>
 
 "Terminal Layout
-let g:fzf_layout = { 'down': '40%' }
+"let g:fzf_layout = { 'down': '40%' }
 
 "Popup Layout
-"let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.5, 'highlight': 'Comment' } }
+let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.5, 'highlight': 'Comment' } }
 
 let g:fzf_colors =
 \ { 'fg':      ['fg', 'Normal'],
