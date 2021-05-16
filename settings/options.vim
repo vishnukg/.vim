@@ -1,4 +1,4 @@
-syntax on
+syntax enable
 colo iceberg
 
 filetype plugin indent on
@@ -9,8 +9,8 @@ autocmd Filetype go setlocal tabstop=4 shiftwidth=4 softtabstop=4
 " ts - show existing tab with 4 spaces width
 " sw - when indenting with '>', use 4 spaces width
 " sts - control <tab> and <bs> keys to match tabstop
-" Disable audible bell because it's annoying.
 
+" Disable audible bell because it's annoying.
 set noerrorbells visualbell t_vb=
 
 " Disable vi compatability
@@ -90,5 +90,3 @@ autocmd BufRead,BufNewFile *.md setlocal spell
 set spellfile=~/.vim/spell/en.utf-8.add
 
 
-syntax enable
-filetype plugin indent on
