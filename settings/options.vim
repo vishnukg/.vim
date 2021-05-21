@@ -1,6 +1,3 @@
-syntax enable
-colo iceberg
-
 filetype plugin indent on
 "au filetype go inoremap <buffer> . .<C-x><C-o>
 

@@ -1,3 +1,5 @@
+"set airline theme
+let g:airline_theme = 'codedark'
 " air-line plugin specific commands
 let g:airline_powerline_fonts = 1
 

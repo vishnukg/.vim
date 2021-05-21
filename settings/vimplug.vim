@@ -19,6 +19,8 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'morhetz/gruvbox'
+Plug 'jacoborus/tender.vim'
+Plug 'tomasiser/vim-code-dark'
 
 " Initialize plugin system
 call plug#end()
