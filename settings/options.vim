@@ -10,6 +10,9 @@ autocmd Filetype go setlocal tabstop=4 shiftwidth=4 softtabstop=4
 " Highlight search
 set hls
 
+"This unsets the "last search pattern register by hitting return
+nnoremap <CR> :noh<CR><CR>
+
 " Disable audible bell because it's annoying.
 set noerrorbells visualbell t_vb=
 
