@@ -7,6 +7,9 @@ autocmd Filetype go setlocal tabstop=4 shiftwidth=4 softtabstop=4
 " sw - when indenting with '>', use 4 spaces width
 " sts - control <tab> and <bs> keys to match tabstop
 
+" Highlight search
+set hls
+
 " Disable audible bell because it's annoying.
 set noerrorbells visualbell t_vb=
 
