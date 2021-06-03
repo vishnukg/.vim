@@ -5,7 +5,6 @@ let g:coc_global_extensions = [
   \ 'coc-prettier', 
   \ 'coc-json', 
   \ 'coc-go',
-  \ 'coc-solargraph',
   \ 'coc-html',
   \ 'coc-css',
   \ ]
