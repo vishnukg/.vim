@@ -14,5 +14,5 @@ if (has("termguicolors"))
 endif
 
 syntax enable
-colorscheme tender
+colorscheme codedark
 
