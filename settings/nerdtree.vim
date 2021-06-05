@@ -1,6 +1,13 @@
 "Show Hidden files in nerdtree
 let NERDTreeShowHidden=1
 
+"Automatically delete the buffer of the file you just deleted with NERDTree
+let NERDTreeAutoDeleteBuffer = 1
+
+"Making NERDTree prettier
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+
 " Map nerdtree toggle
 nnoremap <C-g> :NERDTreeToggle<CR>
 
