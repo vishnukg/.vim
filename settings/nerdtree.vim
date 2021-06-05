@@ -8,6 +8,12 @@ let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
+" NERDTree width
+let g:NERDTreeWinSize = 30 
+
+" Automatically close NERDTree buffer when we open a new file
+let NERDTreeQuitOnOpen=1
+
 " Map nerdtree toggle
 nnoremap <C-g> :NERDTreeToggle<CR>
 
