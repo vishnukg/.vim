@@ -31,6 +31,8 @@
   ],
   "eslint.autoFixOnSave": true,
   "tsserver.enableJavascript": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
   "html.enable": true,
   "html.filetypes": ["html", "handlebars", "htmldjango"],
   "css.enable": true,
