@@ -21,7 +21,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'morhetz/gruvbox'
 Plug 'jacoborus/tender.vim'
 Plug 'tomasiser/vim-code-dark'
-Plug 'ruby-formatter/rufo-vim'
+Plug 'voldikss/vim-floaterm'
 
 " Initialize plugin system
 call plug#end()
