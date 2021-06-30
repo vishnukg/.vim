@@ -16,6 +16,9 @@ if exists('+termguicolors')
   set termguicolors
 endif
 
-syntax enable
+syntax on
+" Use new regular expression engine
+set re=0
+
 colorscheme codedark
 
