@@ -16,7 +16,7 @@ if exists('+termguicolors')
   set termguicolors
 endif
 
-syntax on
+syntax enable
 " Use new regular expression engine
 set re=0
 
