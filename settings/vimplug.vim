@@ -18,7 +18,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'jacoborus/tender.vim'
 Plug 'tomasiser/vim-code-dark'
-Plug 'OmniSharp/omnisharp-vim'
 
 " Initialize plugin system
 call plug#end()

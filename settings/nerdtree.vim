@@ -9,7 +9,7 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
 " NERDTree width
-let g:NERDTreeWinSize = 30 
+let g:NERDTreeWinSize = 34 
 
 " Automatically close NERDTree buffer when we open a new file
 let NERDTreeQuitOnOpen=1
