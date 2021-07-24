@@ -5,7 +5,7 @@ source $HOME/.vim/settings/coc.vim
 source $HOME/.vim/settings/nerdtree.vim
 source $HOME/.vim/settings/keymap.vim
 source $HOME/.vim/settings/airline.vim
-source $HOME/.vim/settings/govim.vim
+source $HOME/.vim/settings/vimgo.vim
 source $HOME/.vim/settings/fzf.vim
 source $HOME/.vim/settings/ctrlsf.vim
 
@@ -27,4 +27,4 @@ set cursorline
 hi cursorline cterm=none term=none
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
-highlight CursorLine guibg=#444444 ctermbg=234
+highlight CursorLine guibg=#262626 ctermbg=235

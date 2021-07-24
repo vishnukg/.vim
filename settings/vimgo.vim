@@ -13,3 +13,8 @@ let g:go_auto_type_info = 1
 
 " Switching off go to def for vim go
 let g:go_def_mapping_enabled = 0
+
+au FileType go nmap <leader>gr <Plug>(go-run)
+au FileType go nmap <leader>gb <Plug>(go-build)
+au FileType go nmap <leader>gt <Plug>(go-test)
+au FileType go nmap <leader>gc <Plug>(go-coverage)
