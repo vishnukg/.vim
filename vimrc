@@ -27,4 +27,4 @@ set cursorline
 hi cursorline cterm=none term=none
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
-highlight CursorLine guibg=#262626 ctermbg=235
+highlight CursorLine guibg=#303030 ctermbg=236
