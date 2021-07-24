@@ -1,5 +1,5 @@
 "Loading settings from individual files
-runtime settings/options.vim
+runtime settings/keyoptions.vim
 runtime settings/coc.vim
 runtime settings/vimplug.vim
 runtime settings/nerdtree.vim
