@@ -1,11 +1,11 @@
 "Loading settings from individual files
 runtime settings/vimplug.vim
-runtime settings/keyoptions.vim
-runtime settings/coc.vim
 runtime settings/nerdtree.vim
+runtime settings/coc.vim
+runtime settings/vimgo.vim
+runtime settings/keyoptions.vim
 runtime settings/keymap.vim
 runtime settings/airline.vim
-runtime settings/vimgo.vim
 runtime settings/fzf.vim
 runtime settings/ctrlsf.vim
 
