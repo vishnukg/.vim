@@ -26,7 +26,8 @@
     "javascript",
     "json",
     "typescript",
-    "typescriptreact"
+    "typescriptreact",
+    "rust"
   ],
   "eslint.autoFixOnSave": true,
   "tsserver.enableJavascript": true,
