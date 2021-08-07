@@ -17,6 +17,7 @@ if exists('+termguicolors')
 endif
 
 syntax enable
+filetype plugin indent on
 " Use new regular expression engine
 set re=0
 
