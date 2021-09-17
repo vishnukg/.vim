@@ -1,4 +1,4 @@
-nnoremap <C-p> :Files<Cr>
+nnoremap <leader>p :Files<Cr>
 
 "Terminal Layout
 "let g:fzf_layout = { 'down': '40%' }
