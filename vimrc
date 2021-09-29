@@ -4,6 +4,7 @@ runtime settings/vimplug.vim
 runtime settings/nerdtree.vim
 runtime settings/vimgo.vim
 runtime settings/keyoptions.vim
+runtime settings/rubylang.vim
 runtime settings/keymap.vim
 runtime settings/airline.vim
 runtime settings/fzf.vim
