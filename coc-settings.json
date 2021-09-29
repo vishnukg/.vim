@@ -2,7 +2,7 @@
   "languageserver": {
     "go": {
       "command": "gopls",
-      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "rootPatterns": ["go.mod"],
       "filetypes": ["go"],
       "initializationOptions": {
         "usePlaceholders": true
@@ -39,5 +39,8 @@
   "html.enable": true,
   "html.filetypes": ["html", "handlebars", "htmldjango"],
   "css.enable": true,
-  "css.validate": true
+  "css.validate": true,
+  "diagnostic.errorSign": "x",
+  "diagnostic.warningSign": "⚠",
+  "diagnostic.checkCurrentLine": true
 }

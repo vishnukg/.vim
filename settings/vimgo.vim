@@ -1,17 +1,25 @@
 " go-vim plugin specific commands
+" disable all linters as that is taken care by coc.nvim
+let g:go_diagnostics_enabled = 0
+let g:go_metalinter_enabled = []
+
 " Also run `goimports` on your current file on every save
 " Might be be slow on large codebases, if so, just comment it out
+
 let g:go_fmt_command = "goimports"
 
 " Status line types/signatures.
 let g:go_auto_type_info = 1
 
 "Go syntax highlighting
+let g:go_highlight_types = 1
 let g:go_highlight_fields = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_function_calls = 1
 let g:go_highlight_extra_types = 1
 let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_generate_tags = 1
 
 " If you want to disable gofmt on save
 " let g:go_fmt_autosave = 0
