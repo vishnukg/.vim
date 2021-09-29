@@ -12,4 +12,8 @@ so the Coc Extensions work correctly.
 
 silver searcher tool has to be installed for FZF and ctrlsf to work correctly
 
-Make sure you have the right gopath and path config in zsh/bash scripts for coc-nvim to work correctly withgopls
+Make sure you have the right GOPATH and PATH config in zsh/bash scripts for coc-nvim to work correctly with gopls
+ #Golang config
+ export GOPATH=$HOME/go
+ PATH=$PATH:$GOPATH/bin
+ PATH=$PATH:/usr/local/go/bin
