@@ -11,3 +11,5 @@ Please make sure you install the language servers for respective languages (eg. 
 so the Coc Extensions work correctly.
 
 silver searcher tool has to be installed for FZF and ctrlsf to work correctly
+
+Make sure you have the right gopath and path config in zsh/bash scripts for coc-nvim to work correctly withgopls
