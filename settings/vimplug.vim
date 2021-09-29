@@ -19,6 +19,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'jacoborus/tender.vim'
 Plug 'tomasiser/vim-code-dark'
 Plug 'dyng/ctrlsf.vim'
+Plug 'ruby-formatter/rufo-vim'
 
 " Initialize plugin system
 call plug#end()

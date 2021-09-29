@@ -7,6 +7,7 @@ let g:coc_global_extensions = [
   \ 'coc-html',
   \ 'coc-css',
   \ 'coc-pairs',
+  \ 'coc-solargraph',
   \ ]
 " from readme
 " if hidden is not set, TextEdit might fail.
