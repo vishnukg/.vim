@@ -28,12 +28,12 @@ let g:go_highlight_generate_tags = 1
 " Switching off go to def for vim go
 let g:go_def_mapping_enabled = 0
 
-au FileType go nmap <leader>gr <Plug>(go-run)
-au FileType go nmap <leader>gb <Plug>(go-build)
-au FileType go nmap <leader>gc <Plug>(go-coverage)
+autocmd FileType go nmap <leader>gr <Plug>(go-run)
+autocmd FileType go nmap <leader>gb <Plug>(go-build)
+autocmd FileType go nmap <leader>gc <Plug>(go-coverage)
 
-autocmd BufEnter *.go nmap <leader>gt <Plug>(go-test)
-autocmd BufEnter *.go nmap <leader>gtf <Plug>(go-test-func)
-autocmd BufEnter *.go nmap <leader>gtc <Plug>(go-coverage-toggle)
-autocmd BufEnter *.go nmap <leader>gi <Plug>(go-info)
+autocmd FileType go nmap <leader>gt <Plug>(go-test)
+autocmd FileType go nmap <leader>gtf <Plug>(go-test-func)
+autocmd FileType go nmap <leader>gtc <Plug>(go-coverage-toggle)
+autocmd FileType go nmap <leader>gi <Plug>(go-info)
 
