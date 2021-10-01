@@ -83,5 +83,3 @@ set showmatch	  	"Highlights matching brackets in programming languages
 autocmd BufRead,BufNewFile *.md setlocal spell
 set spellfile=~/.vim/spell/en.utf-8.add
 
-"-----Shortcut for saving all changed files
-:map <leader><leader> :wa<cr>

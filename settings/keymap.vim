@@ -22,3 +22,12 @@ nnoremap <Down>  :echoe "Use j"<CR>
 " Remapping jj as esc key
 inoremap jk <ESC>
 inoremap kj <ESC>
+
+"-----Shortcut for saving all changed files
+:map <leader><leader> :wa<cr>
+
+"-----Shortcut for opening terminal on the right vertically
+noremap <leader>tr :botright vertical terminal<CR>
+
+"-----Shortcut for opening terminal on the bottom
+noremap <leader>tb :below terminal<CR>
