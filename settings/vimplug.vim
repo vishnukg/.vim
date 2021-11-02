@@ -18,6 +18,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'jacoborus/tender.vim'
 Plug 'tomasiser/vim-code-dark'
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'dyng/ctrlsf.vim'
 Plug 'ruby-formatter/rufo-vim'
 
