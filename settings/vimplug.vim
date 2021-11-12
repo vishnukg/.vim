@@ -20,7 +20,7 @@ Plug 'jacoborus/tender.vim'
 Plug 'tomasiser/vim-code-dark'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'dyng/ctrlsf.vim'
-Plug 'ruby-formatter/rufo-vim'
+Plug 'rust-lang/rust.vim'
 
 " Initialize plugin system
 call plug#end()
