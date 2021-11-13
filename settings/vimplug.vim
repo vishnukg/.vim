@@ -19,6 +19,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'jacoborus/tender.vim'
 Plug 'tomasiser/vim-code-dark'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'morhetz/gruvbox'
 Plug 'dyng/ctrlsf.vim'
 Plug 'rust-lang/rust.vim'
 
