@@ -22,7 +22,7 @@ filetype plugin indent on
 " Use new regular expression engine
 set re=0
 
-colorscheme gruvbox
+colorscheme dracula
 
 " Highlighting cursorline
 set cursorline
