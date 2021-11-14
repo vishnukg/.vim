@@ -11,6 +11,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-commentary'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'tpope/vim-fugitive'
@@ -19,6 +20,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'jacoborus/tender.vim'
 Plug 'tomasiser/vim-code-dark'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'liuchengxu/space-vim-theme'
 Plug 'morhetz/gruvbox'
 Plug 'dyng/ctrlsf.vim'
 Plug 'rust-lang/rust.vim'

@@ -22,11 +22,15 @@ filetype plugin indent on
 " Use new regular expression engine
 set re=0
 
-colorscheme dracula
+set background=light
+colorscheme space_vim_theme
 
 " Highlighting cursorline
 set cursorline
-hi cursorline cterm=none term=none
-autocmd WinEnter * setlocal cursorline
-autocmd WinLeave * setlocal nocursorline
-highlight CursorLine guibg=#303030 ctermbg=236
+hi CursorLine cterm=None ctermbg=234 ctermfg=None
+" use the below settings for a dark theme
+
+" hi cursorline cterm=none term=none
+" autocmd WinEnter * setlocal cursorline
+" autocmd WinLeave * setlocal nocursorline
+" highlight CursorLine guibg=#303030 ctermbg=236
