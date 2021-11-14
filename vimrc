@@ -22,8 +22,8 @@ filetype plugin indent on
 " Use new regular expression engine
 set re=0
 
-set background=light
-colorscheme space_vim_theme
+set background=dark
+colorscheme dracula
 
 " Highlighting cursorline
 set cursorline

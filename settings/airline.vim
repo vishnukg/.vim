@@ -1,5 +1,5 @@
 "set airline theme
-let g:airline_theme = 'bubblegum'
+let g:airline_theme = 'deus'
 " air-line plugin specific commands
 let g:airline_powerline_fonts = 1
 
