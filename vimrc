@@ -24,7 +24,7 @@ set re=0
 
 set t_Co=256
 set background=light
-colorscheme gruvbox
+colorscheme space_vim_theme
 
 " Highlighting cursorline
 set cursorline
