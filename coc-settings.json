@@ -42,5 +42,7 @@
   "css.validate": true,
   "diagnostic.errorSign": "x",
   "diagnostic.warningSign": "⚠",
-  "diagnostic.checkCurrentLine": true
+  "diagnostic.checkCurrentLine": true,
+  "codeLens.enable": true,
+  "rust-analyzer.enable": true
 }

@@ -23,8 +23,8 @@ filetype plugin indent on
 set re=0
 
 set t_Co=256
-set background=light
-colorscheme space_vim_theme
+set background=dark
+colorscheme dracula
 
 " Highlighting cursorline
 set cursorline
