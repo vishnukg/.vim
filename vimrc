@@ -24,7 +24,7 @@ set re=0
 
 set t_Co=256
 set background=dark
-colorscheme dracula
+colorscheme codedark
 
 " Highlighting cursorline
 set cursorline
