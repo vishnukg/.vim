@@ -17,6 +17,8 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'dyng/ctrlsf.vim'
+Plug 'mattn/emmet-vim'
 Plug 'jacoborus/tender.vim'
 Plug 'tomasiser/vim-code-dark'
 Plug 'dracula/vim', { 'as': 'dracula' }
@@ -24,8 +26,5 @@ Plug 'liuchengxu/space-vim-theme'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'arcticicestudio/nord-vim'
 Plug 'morhetz/gruvbox'
-Plug 'dyng/ctrlsf.vim'
-Plug 'rust-lang/rust.vim'
-
 " Initialize plugin system
 call plug#end()
