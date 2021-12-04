@@ -28,10 +28,13 @@ colorscheme codedark
 
 " Highlighting cursorline
 set cursorline
-hi CursorLine cterm=None ctermbg=234 ctermfg=None
+"hi CursorLine cterm=None ctermbg=234 ctermfg=None
 " use the below settings for a dark theme
 
-" hi cursorline cterm=none term=none
-" autocmd WinEnter * setlocal cursorline
-" autocmd WinLeave * setlocal nocursorline
-" highlight CursorLine guibg=#303030 ctermbg=236
+hi cursorline cterm=none term=none
+autocmd WinEnter * setlocal cursorline
+autocmd WinLeave * setlocal nocursorline
+highlight CursorLine guibg=#303030 ctermbg=236
+
+"highlight parantheses
+highlight MatchParen term=underline cterm=underline gui=underline
