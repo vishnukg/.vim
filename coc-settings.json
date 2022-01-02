@@ -43,6 +43,5 @@
   "diagnostic.errorSign": "x",
   "diagnostic.warningSign": "⚠",
   "diagnostic.checkCurrentLine": true,
-  "codeLens.enable": true,
-  "rust-analyzer.enable": true
+  "codeLens.enable": true
 }
