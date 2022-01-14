@@ -8,6 +8,7 @@ let g:coc_global_extensions = [
   \ 'coc-css',
   \ 'coc-pairs',
   \ 'coc-highlight',
+  \ 'coc-rls',
   \ ]
 " from readme
 " if hidden is not set, TextEdit might fail.
