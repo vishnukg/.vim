@@ -28,7 +28,7 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'morhetz/gruvbox'
 Plug 'rust-lang/rust.vim'
 Plug 'uiiaoo/java-syntax.vim'
-Plug 'rescript-lang/vim-rescript'
+Plug 'vim-test/vim-test'
 
 " Initialize plugin system
 call plug#end()
