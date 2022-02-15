@@ -29,6 +29,7 @@ Plug 'morhetz/gruvbox'
 Plug 'rust-lang/rust.vim'
 Plug 'uiiaoo/java-syntax.vim'
 Plug 'vim-test/vim-test'
+Plug 'ryanoasis/vim-devicons'
 
 " Initialize plugin system
 call plug#end()
