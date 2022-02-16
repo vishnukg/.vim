@@ -10,6 +10,7 @@ runtime settings/airline.vim
 runtime settings/fzf.vim
 runtime settings/ctrlsf.vim
 runtime settings/vimtest.vim
+runtime settings/rustlang.vim
 
 " If you have vim >=8.0 or Neovim >= 0.1.5
 if exists('+termguicolors')
