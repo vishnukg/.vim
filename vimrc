@@ -26,7 +26,7 @@ set re=0
 
 set t_Co=256
 set background=dark
-colorscheme codedark
+colorscheme nord
 
 " Highlighting cursorline
 set cursorline
