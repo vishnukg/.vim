@@ -42,5 +42,5 @@ highlight CursorLine guibg=#404040 ctermbg=239
 highlight MatchParen term=underline cterm=underline gui=underline
 
 "highlight selected text
-hi Visual  guifg=White guibg=LightBlue gui=none
+hi Visual  guifg=White guibg=LightBlue gui=none ctermbg=239
 
