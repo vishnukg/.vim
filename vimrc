@@ -26,7 +26,7 @@ set re=0
 
 set t_Co=256
 set background=dark
-colorscheme nord
+colorscheme codedark
 
 " Highlighting cursorline
 set cursorline
@@ -36,7 +36,7 @@ set cursorline
 hi cursorline cterm=none term=none
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
-highlight CursorLine guibg=#404040 ctermbg=238
+highlight CursorLine guibg=#404040 ctermbg=239
 
 "highlight parantheses
 highlight MatchParen term=underline cterm=underline gui=underline
