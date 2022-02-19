@@ -25,10 +25,10 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'liuchengxu/space-vim-theme'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'arcticicestudio/nord-vim'
-Plug 'morhetz/gruvbox'
 Plug 'rust-lang/rust.vim'
 Plug 'uiiaoo/java-syntax.vim'
 Plug 'vim-test/vim-test'
+Plug 'gruvbox-community/gruvbox'
 
 " Initialize plugin system
 call plug#end()
