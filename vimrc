@@ -36,10 +36,10 @@ set cursorline
 hi cursorline cterm=none term=none
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
-highlight CursorLine guibg=#404040 ctermbg=234
+highlight CursorLine guibg=#404040 ctermbg=233
 
 "highlight parantheses
 highlight MatchParen term=underline cterm=underline gui=underline
 
 "highlight selected text
-hi Visual  guifg=White guibg=LightBlue gui=none ctermbg=239
+hi Visual  guifg=White guibg=LightBlue gui=none ctermbg=233
