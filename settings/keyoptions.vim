@@ -1,6 +1,4 @@
 "au filetype go inoremap <buffer> . .<C-x><C-o>
-
-
 " ts - show existing tab with 4 spaces width
 " sw - when indenting with '>', use 4 spaces width
 " sts - control <tab> and <bs> keys to match tabstop
