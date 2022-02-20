@@ -8,11 +8,12 @@ endif
 set t_Co=256
 set background=dark
 
-let g:gruvbox_transparent_bg = '1'
-let g:gruvbox_contrast_dark = 'dark'
-let g:gruvbox_termcolors = '256'
-let g:gruvbox_improved_warnings = '1'
-colorscheme codedark
+" let g:gruvbox_transparent_bg = '1'
+" let g:gruvbox_contrast_dark = 'dark'
+" let g:gruvbox_termcolors = '256'
+" let g:gruvbox_improved_warnings = '1'
+
+colorscheme nord
 
 " Highlighting cursorline
 set cursorline
