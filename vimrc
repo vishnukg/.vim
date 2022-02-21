@@ -26,7 +26,7 @@ endif
 
 set t_Co=256
 set background=dark
-colorscheme gruvbox
+colorscheme nord
 
 " Highlighting cursorline
 set cursorline
