@@ -12,12 +12,12 @@ runtime settings/ctrlsf.vim
 runtime settings/vimtest.vim
 runtime settings/rustlang.vim
 
-" If you have vim >=8.0 or Neovim >= 0.1.5
-if exists('+termguicolors')
-  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-  set termguicolors
-endif
+" " If you have vim >=8.0 or Neovim >= 0.1.5
+" if exists('+termguicolors')
+"   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+"   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+"   set termguicolors
+" endif
 
 syntax enable
 filetype plugin indent on
@@ -28,7 +28,7 @@ set t_Co=256
 set background=dark
 colorscheme nord
 
-" Highlighting cursorline
+"" Highlighting cursorline
 set cursorline
 "hi CursorLine cterm=None ctermbg=234 ctermfg=None
 " use the below settings for a dark theme
@@ -43,3 +43,11 @@ highlight MatchParen term=underline cterm=underline gui=underline
 
 "highlight selected text
 hi Visual  guifg=White guibg=LightBlue gui=none ctermbg=233
+
+" Transparent background vim
+autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
+autocmd vimenter * hi EndOfBuffer guibg=NONE ctermbg=NONE
+
+" Disable highlighting vertical split
+autocmd vimenter highlight VertSplit ctermbg=NONE
+autocmd vimenter highlight VertSplit ctermfg=NONE
