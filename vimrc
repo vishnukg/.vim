@@ -11,6 +11,7 @@ runtime settings/fzf.vim
 runtime settings/ctrlsf.vim
 runtime settings/vimtest.vim
 runtime settings/rustlang.vim
+runtime settings/theme.vim
 
 syntax enable
 filetype plugin indent on
@@ -36,13 +37,13 @@ set cursorline
 "hi cursorline cterm=none term=none
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
-highlight CursorLine guibg=#404040 ctermbg=240 ctermfg=NONE
+highlight CursorLine ctermfg=NONE gui=none ctermbg=233
 
 ""highlight parantheses
 highlight MatchParen term=underline cterm=underline gui=underline
 
 "highlight selected text
-hi Visual ctermfg=White guibg=#404040 gui=none ctermbg=240
+highlight Visual ctermfg=NONE gui=none ctermbg=233
 
 " Transparent background vim
 autocmd vimenter * hi Normal guifg=NONE guibg=NONE ctermbg=NONE
@@ -59,4 +60,3 @@ highlight clear SignColumn
 
 "Transparent status line
 hi StatusLine ctermbg=0 cterm=NONE
-
