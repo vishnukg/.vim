@@ -42,7 +42,7 @@ highlight CursorLine guibg=#404040 ctermbg=240 ctermfg=NONE
 highlight MatchParen term=underline cterm=underline gui=underline
 
 "highlight selected text
-hi Visual ctermfg=White guibg=LightBlue gui=none ctermbg=240
+hi Visual ctermfg=White guibg=#404040 gui=none ctermbg=240
 
 " Transparent background vim
 autocmd vimenter * hi Normal guifg=NONE guibg=NONE ctermbg=NONE
