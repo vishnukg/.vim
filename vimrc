@@ -37,13 +37,13 @@ set cursorline
 "hi cursorline cterm=none term=none
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
-highlight CursorLine ctermfg=NONE gui=none ctermbg=233
+highlight CursorLine ctermfg=NONE gui=none ctermbg=232
 
 ""highlight parantheses
 highlight MatchParen term=underline cterm=underline gui=underline
 
 "highlight selected text
-highlight Visual ctermfg=NONE gui=none ctermbg=233
+highlight Visual ctermfg=NONE gui=none ctermbg=232
 
 " Transparent background vim
 autocmd vimenter * hi Normal guifg=NONE guibg=NONE ctermbg=NONE
