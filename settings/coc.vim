@@ -1,5 +1,4 @@
 let g:coc_global_extensions = [
-  \ 'coc-snippets',
   \ 'coc-tsserver',
   \ 'coc-eslint', 
   \ 'coc-prettier', 
@@ -10,7 +9,6 @@ let g:coc_global_extensions = [
   \ 'coc-highlight',
   \ 'coc-rust-analyzer',
   \ 'coc-java',
-  \ 'coc-deno'
   \ ]
 " from readme
 " if hidden is not set, TextEdit might fail.
