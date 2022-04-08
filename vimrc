@@ -60,4 +60,4 @@ highlight clear SignColumn
 hi StatusLine ctermbg=0 cterm=NONE
 
 "Remove tilde character for empty lines
-highlight EndOfBuffer ctermfg=bg
+highlight! EndOfBuffer ctermbg=bg ctermfg=bg guibg=bg guifg=bg
