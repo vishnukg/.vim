@@ -58,3 +58,6 @@ highlight clear SignColumn
 
 "Transparent status line
 hi StatusLine ctermbg=0 cterm=NONE
+
+"Remove tilde character for empty lines
+highlight EndOfBuffer ctermfg=bg
