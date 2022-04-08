@@ -37,22 +37,20 @@ set cursorline
 "hi cursorline cterm=none term=none
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
-highlight CursorLine ctermfg=NONE gui=none ctermbg=238
+highlight CursorLine ctermfg=NONE gui=none ctermbg=237
 
 ""highlight parantheses
 highlight MatchParen term=underline cterm=underline gui=underline
 
 "highlight selected text
-highlight Visual ctermfg=NONE gui=none ctermbg=238
+highlight Visual ctermfg=NONE gui=none ctermbg=237
 
 " Transparent background vim
 autocmd vimenter * hi Normal guifg=NONE guibg=NONE ctermbg=NONE
 autocmd vimenter * hi EndOfBuffer guifg=NONE guibg=NONE ctermbg=NONE
 
 " Disable highlighting vertical split
-highlight VertSplit ctermbg=NONE
-highlight VertSplit ctermfg=NONE
-"highlight VertSplit guibg=Orange guifg=Black ctermbg=6 ctermfg=0
+highlight VertSplit ctermbg=black ctermfg=black
 
 "Remove highlight from number line & sign column (git gutter)
 highlight clear LineNr
