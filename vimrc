@@ -26,6 +26,7 @@ if exists('+termguicolors')
 endif
 
 set t_Co=256
+set t_ut=
 set background=dark
 colorscheme codedark
 
@@ -37,27 +38,27 @@ set cursorline
 "hi cursorline cterm=none term=none
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
-highlight CursorLine ctermfg=NONE gui=none ctermbg=237
+highlight CursorLine ctermfg=NONE gui=none ctermbg=238
 
 ""highlight parantheses
 highlight MatchParen term=underline cterm=underline gui=underline
 
 "highlight selected text
-highlight Visual ctermfg=NONE gui=none ctermbg=237
+highlight Visual ctermfg=NONE gui=none ctermbg=240
 
 " Transparent background vim
 autocmd vimenter * hi Normal guifg=NONE guibg=NONE ctermbg=NONE
 autocmd vimenter * hi EndOfBuffer guifg=NONE guibg=NONE ctermbg=NONE
 
 " Disable highlighting vertical split
-highlight VertSplit ctermbg=black ctermfg=black
+autocmd vimenter * hi VertSplit ctermbg=black ctermfg=black
 
 "Remove highlight from number line & sign column (git gutter)
-highlight clear LineNr
-highlight clear SignColumn
+autocmd vimenter * hi clear LineNr
+autocmd vimenter * hi clear SignColumn
 
 "Transparent status line
-hi StatusLine ctermbg=0 cterm=NONE
+autocmd vimenter * hi StatusLine ctermbg=0 cterm=NONE
 
 "Remove tilde character for empty lines
 highlight! EndOfBuffer ctermbg=bg ctermfg=bg guibg=bg guifg=bg
