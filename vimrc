@@ -36,9 +36,9 @@ set cursorline
 " use the below settings for a dark theme
 
 "hi cursorline cterm=none term=none
-autocmd WinEnter * setlocal cursorline
-autocmd WinLeave * setlocal nocursorline
-highlight CursorLine ctermfg=NONE gui=none ctermbg=239
+" autocmd WinEnter * setlocal cursorline
+" autocmd WinLeave * setlocal nocursorline
+" highlight CursorLine ctermfg=NONE gui=none ctermbg=none
 
 ""highlight parantheses
 highlight MatchParen term=underline cterm=underline gui=underline
