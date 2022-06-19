@@ -22,13 +22,12 @@ Plug 'mattn/emmet-vim'
 Plug 'jacoborus/tender.vim'
 Plug 'tomasiser/vim-code-dark'
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'liuchengxu/space-vim-theme'
-Plug 'NLKNguyen/papercolor-theme'
 Plug 'arcticicestudio/nord-vim'
 Plug 'rust-lang/rust.vim'
 Plug 'uiiaoo/java-syntax.vim'
 Plug 'vim-test/vim-test'
 Plug 'gruvbox-community/gruvbox'
+Plug 'ryanoasis/vim-devicons'
 
 " Initialize plugin system
 call plug#end()
