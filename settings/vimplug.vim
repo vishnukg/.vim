@@ -27,6 +27,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'uiiaoo/java-syntax.vim'
 Plug 'vim-test/vim-test'
 Plug 'gruvbox-community/gruvbox'
+Plug 'sheerun/vim-polyglot'
 
 " Initialize plugin system
 call plug#end()
