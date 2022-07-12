@@ -28,7 +28,6 @@ Plug 'uiiaoo/java-syntax.vim'
 Plug 'vim-test/vim-test'
 Plug 'gruvbox-community/gruvbox'
 Plug 'sheerun/vim-polyglot'
-Plug 'Omnisharp/omnisharp-vim'
 
 " Initialize plugin system
 call plug#end()
