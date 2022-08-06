@@ -29,6 +29,7 @@ set fileencoding=utf-8
 
 set noswapfile
 set nobackup
+set nowritebackup
 set nowb
 
 " Show line number
