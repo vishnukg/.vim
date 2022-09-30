@@ -1,7 +1,6 @@
 "Loading settings from individual files
 runtime settings/coc.vim
 runtime settings/vimplug.vim
-runtime settings/nerdtree.vim
 runtime settings/vimgo.vim
 runtime settings/keyoptions.vim
 runtime settings/keymap.vim
@@ -11,6 +10,7 @@ runtime settings/ctrlsf.vim
 runtime settings/vimtest.vim
 runtime settings/rustlang.vim
 runtime settings/theme.vim
+runtime settings/nerdtree.vim
 
 syntax enable
 filetype plugin indent on
@@ -61,3 +61,9 @@ hi StatusLine ctermbg=0 cterm=NONE
 
 "Remove tilde character for empty lines
 highlight EndOfBuffer ctermbg=bg ctermfg=bg guibg=bg guifg=bg
+
+if has('nvim')
+" Nvim no line number terminal
+autocmd TermOpen * setlocal nonumber norelativenumber
+end
+
