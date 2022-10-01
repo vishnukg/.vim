@@ -22,17 +22,9 @@
     }
   },
   "suggest.noselect": false,
-  "coc.preferences.formatOnSaveFiletypes": [
-    "html",
-    "css",
-    "markdown",
-    "javascript",
-    "json",
-    "typescript",
-    "typescriptreact",
-    "rust"
-  ],
   "eslint.autoFixOnSave": true,
+	"coc.preferences.formatOnType": true,
+	"coc.preferences.formatOnSaveFiletypes":  ["*"],
   "tsserver.enableJavascript": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,

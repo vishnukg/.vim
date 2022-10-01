@@ -70,4 +70,4 @@ autocmd TermOpen * setlocal nonumber norelativenumber
 "autocmd BufWinEnter,WinEnter term://* startinsert	
 end
 
-
+set cmdheight=1
