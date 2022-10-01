@@ -61,10 +61,10 @@ hi StatusLine ctermbg=0 cterm=NONE
 
 "Remove tilde character for empty lines
 highlight EndOfBuffer ctermbg=bg ctermfg=bg guibg=bg guifg=bg
-set fillchars=fold:\ ,vert:\│,eob:\ ,msgsep:‾
-
 
 if has('nvim')
+" Remove tilde character
+set fillchars=fold:\ ,vert:\│,eob:\ ,msgsep:‾
 " Nvim no line number terminal
 autocmd TermOpen * setlocal nonumber norelativenumber
 end
