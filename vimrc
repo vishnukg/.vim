@@ -1,4 +1,5 @@
 "Loading settings from individual files
+runtime settings/nerdtree.vim
 runtime settings/coc.vim
 runtime settings/vimplug.vim
 runtime settings/vimgo.vim
@@ -10,7 +11,6 @@ runtime settings/ctrlsf.vim
 runtime settings/vimtest.vim
 runtime settings/rustlang.vim
 runtime settings/theme.vim
-runtime settings/nerdtree.vim
 
 syntax enable
 filetype plugin indent on
