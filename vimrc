@@ -67,7 +67,7 @@ if has('nvim')
 set fillchars=fold:\ ,vert:\│,eob:\ ,msgsep:‾
 " Nvim no line number terminal
 autocmd TermOpen * setlocal nonumber norelativenumber
-autocmd BufWinEnter,WinEnter term://* startinsert	
+"autocmd BufWinEnter,WinEnter term://* startinsert	
 end
 
 
