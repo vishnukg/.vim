@@ -7,6 +7,7 @@ let NERDTreeAutoDeleteBuffer = 1
 "Making NERDTree prettier
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
+let g:NERDTreeMinimalMenu=1
 
 " NERDTree width
 let g:NERDTreeWinSize = 34 
