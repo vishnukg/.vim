@@ -25,6 +25,8 @@
   "eslint.autoFixOnSave": true,
   "coc.preferences.formatOnType": true,
   "coc.preferences.formatOnSave": true,
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
   "javascript.suggest.autoImports": true,
