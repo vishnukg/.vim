@@ -8,7 +8,6 @@ let g:coc_global_extensions = [
   \ 'coc-pairs',
   \ 'coc-highlight',
   \ 'coc-rust-analyzer',
-  \ 'coc-java',
 	\ 'coc-pyright',
   \ ]
 " from readme
