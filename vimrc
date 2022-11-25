@@ -39,7 +39,7 @@ set cursorline
 " autocmd WinLeave * setlocal nocursorline
 " highlight CursorLine ctermfg=NONE gui=none ctermbg=none
 
-""highlight parantheses
+highlight parantheses
 highlight MatchParen term=underline cterm=underline gui=underline
 
 "highlight selected text
@@ -70,4 +70,3 @@ autocmd TermOpen * setlocal nonumber norelativenumber
 "autocmd BufWinEnter,WinEnter term://* startinsert	
 end
 
-set cmdheight=1
