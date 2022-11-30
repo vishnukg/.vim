@@ -31,7 +31,7 @@ colorscheme codedark
 
 " Highlighting cursorline
 set cursorline
-hi CursorLine cterm=None ctermbg=235 ctermfg=None
+hi CursorLine cterm=None ctermbg=236 ctermfg=None
 
 "highlight parantheses
 highlight MatchParen term=underline cterm=underline gui=underline
