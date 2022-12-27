@@ -18,4 +18,6 @@ export GOPATH=$HOME/go
  PATH=$PATH:$GOPATH/bin
  PATH=$PATH:/usr/local/go/bin
 
-Instal elixir-ls using home brew for the language server to work
+Install elixir-ls using home brew for the language server to work
+Install scala using brew install coursier/formulas/coursier && cs setup
+and then install metals using Coursier.
