@@ -47,5 +47,8 @@
   "diagnostic.errorSign": "x",
   "diagnostic.warningSign": "⚠",
   "diagnostic.checkCurrentLine": true,
-  "codeLens.enable": true
+  "codeLens.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
